@@ -52,7 +52,7 @@ async function createVideo() {
 		updated_trivia_questions.length
 	}`;
 
-	await writeFile('readme.md', readme);
+	await writeFile('README.md', readme);
 
 	// upload to backblaze
 
