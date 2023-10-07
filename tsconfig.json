@@ -1,0 +1,17 @@
+{
+	
+	"compilerOptions": {
+		"resolveJsonModule": true,
+		"target": "ES2018",
+		"module": "commonjs",
+		"jsx": "react-jsx",
+		"outDir": "./dist",
+		"strict": false,
+		"noEmit": true,
+		"lib": ["es2015"],
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"noUnusedLocals": false
+	}
+}
