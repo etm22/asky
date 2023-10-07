@@ -4,7 +4,8 @@
   "description": "My Remotion video",
   "scripts": {
     "start": "remotion studio",
-    "build": "remotion render HelloWorld out/video.mp4",
+    "build": "tsc -p .",
+    "build-video": "remotion render HelloWorld out/video.mp4",
     "upgrade": "remotion upgrade",
     "test": "eslint src --ext ts,tsx,js,jsx && tsc"
   },
@@ -13,6 +14,11 @@
   "dependencies": {
     "@remotion/cli": "^4.0.0",
     "@remotion/zod-types": "^4.0.0",
+    "axios": "^1.5.1",
+    "backblaze-b2": "^1.7.0",
+    "dotenv": "^16.3.1",
+    "form-data": "^4.0.0",
+    "get-audio-duration": "^4.0.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "remotion": "^4.0.0",
@@ -20,6 +26,7 @@
   },
   "devDependencies": {
     "@remotion/eslint-config": "^4.0.0",
+    "@types/node": "^20.8.3",
     "@types/react": "^18.0.26",
     "@types/web": "^0.0.86",
     "eslint": "^8.43.0",

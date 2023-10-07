@@ -1,17 +1,20 @@
 {
-	
-	"compilerOptions": {
-		"resolveJsonModule": true,
-		"target": "ES2018",
-		"module": "commonjs",
-		"jsx": "react-jsx",
-		"outDir": "./dist",
-		"strict": false,
-		"noEmit": true,
-		"lib": ["es2015"],
-		"esModuleInterop": true,
-		"skipLibCheck": true,
-		"forceConsistentCasingInFileNames": true,
-		"noUnusedLocals": false
-	}
-}
+	"include": ["backend"],
+    "compilerOptions": {
+	"resolveJsonModule": true,
+      "target": "es5" /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', or 'ESNEXT'. */,
+      "module": "CommonJS" /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'. */,
+      "lib": [
+        "DOM"
+      ] /* Specify library files to be included in the compilation. */,
+      "outDir": "./build" /* Redirect output structure to the directory. */,
+      "jsx": "react-jsx",
+      /* Strict Type-Checking Options */
+      "strict": false /* Enable all strict type-checking options. */,
+      /* Advanced Options */
+      "skipLibCheck": true /* Skip type checking of declaration files. */,
+      "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */,
+      "esModuleInterop": true
+    }
+  }
+  

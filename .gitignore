@@ -7,3 +7,4 @@ dist
 out
 public/*.json
 public/audio.mp3
+build
