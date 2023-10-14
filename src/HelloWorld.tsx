@@ -39,13 +39,13 @@ export const HelloWorld: React.FC = () => {
 					height: '21%',
 				}}
 			>
-				<AbsoluteFill style={{left: '12%', top: '25%', zIndex: 99}}>
+				<AbsoluteFill style={{left: '10%', top: '25%', zIndex: 99}}>
 					<Img height={100} width={100} src={staticFile('rickroll.png')} />
 				</AbsoluteFill>
-				<AbsoluteFill style={{left: '20%', top: '8%', width: '65%'}}>
+				<AbsoluteFill style={{left: '27%', top: '8%', width: '60%'}}>
 					<p
 						style={{
-							fontSize: '3em',
+							fontSize: '3.5em',
 							color: '#ececf1',
 							fontFamily: 'soehne',
 						}}
@@ -67,18 +67,18 @@ export const HelloWorld: React.FC = () => {
 									videoConfig.fps * word.to - word.from
 								)}
 							>
-								<AbsoluteFill style={{left: '12%', top: '27%'}}>
+								<AbsoluteFill style={{left: '10%', top: '27%'}}>
 									<Img
 										height={100}
 										width={100}
 										src={staticFile('chatgpt.png')}
 									/>
 								</AbsoluteFill>
-								<AbsoluteFill style={{left: '20%', top: '23%', width: '65%'}}>
+								<AbsoluteFill style={{left: '27%', top: '23.5%', width: '65%'}}>
 									<p
 										style={{
 											color: '#d1d5db',
-											fontSize: '3em',
+											fontSize: '3.5em',
 											fontFamily: 'soehne',
 											lineHeight: '5rem',
 										}}
